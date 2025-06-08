@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘의 급식 🍱</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>오늘의 급식 🍱</h1>
+        <div class="date-picker">
+            <input type="date" id="mealDate">
+            <button onclick="getMealInfo()">급식 확인하기 ✨</button>
+        </div>
+        <div class="meal-info">
+            <h2>🍽️ 오늘의 메뉴</h2>
+            <div id="mealContent"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
